@@ -1,8 +1,8 @@
 # Problem 4. Largest Palindrome Product
 
-def find_largest_palindrome(n=999):
+def find_largest_palindrome(n=999, m=100):
     m = 0
-    for i in range(n, -1, -1):
+    for i in range(n, m-1, -1):
         for j in range(n, i-1, -1):
             x = i * j
             if is_palindrome(str(x)):

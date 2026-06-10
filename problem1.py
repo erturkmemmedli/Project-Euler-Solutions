@@ -1,3 +1,5 @@
+# Problem 1. Multiples of 3 or 5
+
 def find_multiples(n=1000):
     s = 0
     for i in range(n):
